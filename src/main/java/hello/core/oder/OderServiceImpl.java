@@ -23,4 +23,9 @@ public class OderServiceImpl implements OderService{
 
         return new Oder(memberId, itemName, itemPrice, discountPrice);
     }
+
+    //테스트 용도
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
 }
